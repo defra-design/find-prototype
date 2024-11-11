@@ -1,3 +1,4 @@
 {
-  "serviceName": "FIND farming"
+  "serviceName": "FIND farming",
+  "port": 3005
 }

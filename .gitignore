@@ -8,5 +8,12 @@ migrate.log
 usage-data-config.json
 
 # General ignores
+lib/extensions/_extensions.scss
 .DS_Store
+.idea
+.sass-cache
+.start.pid
+.port.tmp
+public
+.tmuxp.*
 .idea
