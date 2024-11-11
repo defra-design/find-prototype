@@ -4,3 +4,19 @@
 // 
 
 // Add extra styles here
+
+.defra-ticket-panel {
+    display: block;
+    margin-right: 0;
+    flex-wrap: wrap;
+}
+
+
+.defra-ticket-panel__content {
+    display: block;
+    position: relative;
+    background-color: #f3f2f1;
+    padding: 20px;        
+    flex-grow: 1;
+    border-top: 6px solid #28a197;
+}

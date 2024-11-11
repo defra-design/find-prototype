@@ -10,12 +10,44 @@
 
 <div class="govuk-grid-row">
     <div class="govuk-grid-column-two-thirds">
-        {{ macroPageHeader.pageHeader(pageHeading,pageSection) }}        
-    	<ul class="govuk-list govuk-body-s">
-        	<li>Last updated: <span class="govuk-!-font-weight-bold">11 November 2024</span></li>
-          	<li>GOV.UK Prototype Kit: {{releaseVersion}}</li>                    
-        </ul>        
-  	</div>
+        {{ macroPageHeader.pageHeader(pageHeading,pageSection) }}            	
+  	</div>	
+	
+	<div class="govuk-grid-column-two-thirds">
+		<ul class="govuk-list govuk-body-s">
+			<li>Last updated: <span class="govuk-!-font-weight-bold">11 November 2024</span></li>
+		</ul>
+	</div>
+
+
+
+	  <div class="govuk-grid-column-one-third">
+        
+        
+
+        <article class="defra-ticket-panel" aria-label="Sub navigation 1">                            
+            <section class="defra-ticket-panel__content" aria-label="Section 1">
+        
+                <ul class="govuk-list govuk-body-s">
+                    <!-- <li>Last updated: <span class="govuk-!-font-weight-bold">28 June 2024</span></li> -->
+                    <li>GOV.UK Prototype Kit: {{releaseVersion}}</li>
+                </ul>        
+                        
+                <hr class="govuk-section-break--m">
+                
+                <h2 class="govuk-heading-s govuk-!-margin-top-5 govuk-!-margin-bottom-2">Assets</h2>              
+                <ul class="govuk-list">
+                    
+                    <li class="govuk-!-font-size-16"><a class="govuk-link govuk-link--no-visited-state" href="https://github.com/defra-design/find-prototype" target="_blank">Github repository</a></li>                                        
+                </ul>
+            </section>
+        </article>
+
+        
+    </div>
+
+
+
 </div>
 
 {% endblock %}
